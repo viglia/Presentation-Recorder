@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.viglia.pdfaudiorecorderapp.fragments.PresentationPlayerFragment"
+    android:gravity="center_vertical">
+
+    <com.joanzapata.pdfview.PDFView
+        android:id="@+id/pdfview_player"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/player_controller"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#3f51b5">
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_gravity="center_horizontal" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/play_icon"
+                android:background="@color/transparent"
+                android:id="@+id/player_play" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/stop_icon"
+                android:background="@color/transparent"
+                android:id="@+id/player_stop"/>
+
+        </LinearLayout> <!-- End -->
+
+    </LinearLayout>
+
+
+</LinearLayout>
