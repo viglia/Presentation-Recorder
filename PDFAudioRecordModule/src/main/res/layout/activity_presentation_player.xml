@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_centerVertical="true"
     android:layout_centerHorizontal="true"
-    tools:context="com.android.viglia.pdfaudiorecorderapp.activities.PresentationPlayerActivity"
+    tools:context="com.viglia.android.pdfaudiorecorderapp.activities.PresentationPlayerActivity"
     android:id="@+id/activity_player_frame">
 
 </FrameLayout>

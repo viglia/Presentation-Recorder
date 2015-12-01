@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PDFAudioRecordModule/PDFAudioRecordModule.iml" filepath="$PROJECT_DIR$/PDFAudioRecordModule/PDFAudioRecordModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PDFViewModule/PDFViewModule.iml" filepath="$PROJECT_DIR$/PDFViewModule/PDFViewModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Presentation-Recorder.git.iml" filepath="$PROJECT_DIR$/Presentation-Recorder.git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialFilePicker/materialFilePicker.iml" filepath="$PROJECT_DIR$/materialFilePicker/materialFilePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pausable_recorder/pausable_recorder.iml" filepath="$PROJECT_DIR$/pausable_recorder/pausable_recorder.iml" />
+    </modules>
+  </component>
+</project>
